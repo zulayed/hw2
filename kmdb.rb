@@ -89,7 +89,7 @@ Character.destroy_all
 #   rails generate model Studio name:string
 #   rails generate model Actor actor_name:string
 #   rails generate model Character character_name:string movie_id:integer actor_id:integer
-#   rails db:migrate
+   system("rails db:migrate")
 # =============================================================================================================
 #(SIDE NOTE TO THE PROFESSOR): 
 #AS PART OF THIS ASSIGNMENT, PUTTING THE "GENERATE" STEP AFTER THE "DESTROY" STEP WAS EXTREMELY CONFUSING. 
