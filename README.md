@@ -1,6 +1,8 @@
 # ENTR-451 Assignment #2 
 
-COMPLETED ASSIGNMENT
+COMPLETED ASSIGNMENT | NOTE: Migration doesnt seem to work from the kmdb.rb script: 
+`rails runner kmdb.rb` OR system("rails runner kmdb.rb") both return errors.
+Therefore please run "rails db:migrate" in the terminal once before running the "kmdb.rails" file.
 
 
 ###
